@@ -1,0 +1,52 @@
+.new h1:hover{
+    color: rgb(164, 248, 8);
+}
+.new p:hover{
+    color: rgb(216, 37, 5);
+}
+.a:link{
+     color: red;
+}
+.a:visited{
+    color: rgb(81, 243, 6);
+}
+.a:hover{
+    color: blueviolet;
+}
+.a:active{
+    color: rosybrown;
+}
+.new:hover {
+background-color: aquamarine;
+}
+.new:hover h1{
+    color: rgb(164, 248, 8);
+}
+.new:hover p{
+    color: rgb(216, 37, 5);
+}
+h3{
+    text-align: center;
+    position: relative;
+    font-size: xx-large;
+    color: red;
+}
+h3::after{
+    position: absolute;
+    content:"";
+    width: 100px;
+    height: 5px;
+    background-color: yellow;
+    top: 50%;
+    left: 775px;
+}
+
+h3::before{
+    position: absolute;
+    content:"";
+    width: 100px;
+    height: 5px;
+    background-color: yellow;
+    top: 50%;
+    right: 775px;
+}
